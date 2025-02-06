@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+    background-color: #121212; /* Primary Background */
+    color: #FFFFFF; /* Text Color */
+}
+
+/* Example of applying the secondary background to a card-like element */
+.card {
+    background-color: #1E1E1E; /* Secondary Background/Card Background */
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Example of styling a button */
+.btn {
+    background-color: #64FFDA; /* Button Color */
+    color: #000000; /* Button Text Color */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
